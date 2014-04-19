@@ -1,9 +1,7 @@
-# RVG.ME Example Application
+# Sample website for Mike Kossick Consulting
 
-Run these commands:
+To get this website running locally:
 
     bundle
     rake db:setup
     rails s
-
-This application was built with Ruby v2.
