@@ -1,11 +1,18 @@
 <% provide(:title, 'Contact Us') %>
 
-<h1>Contact Us</h1>
-<p></p>
-<h3>Mail</h3>
-Mike Kossick
-203 Joyce Drive
-Lititz, PA 17543
+<div class="row">
+    <div class="col-md-4">
+        <h1>Contact Us</h1>
+        <p></p>
+        <h3>Mail</h3>
+        <p>Mike Kossick</p>
+        <p>203 Joyce Drive</p>
+        <p>Lititz, PA 17543</p>
 
-<h3>E-mail</h3>
-mikekossick.builder@gmail.com
+        <h3>E-mail</h3>
+        <a href="mailto:mikekossick.builder@gmail.com" target="_top">Send Mail</a>
+    </div>
+    <div class="col-md-4">
+        <%= image_tag("/img/mike_outdoors.jpg", :alt => "Promo Image", height: 350) %>
+    </div>
+</div>

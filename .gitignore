@@ -2,3 +2,4 @@ log/*
 tmp/*
 *.swp
 *.swo
+*.DS_STORE*
